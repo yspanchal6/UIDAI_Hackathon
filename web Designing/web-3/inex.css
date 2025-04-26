@@ -1,0 +1,75 @@
+
+.main{
+    background-color: linear-gradient(to top rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50% );
+
+}
+form {
+    
+    background-color: #f2f2f2;
+    padding: 30px;
+    padding-bottom: 40px;
+    border: 1px solid #53474770;
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 300px;
+    margin: auto;
+}
+.set{
+    width: auto;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    padding-top : 10px ;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: weight bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.Login{
+    width: 99%;
+    padding-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+button {
+
+    background-color: #4CAF50;
+    border-radius: 5px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: larger;
+}
+
+button[type="submit"]:hover{
+    background-color: #3e8e41;
+    border: 2px #02561b70;
+
+}
+
+

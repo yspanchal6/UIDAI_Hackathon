@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    align-items: center;
+}
+.navbar{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 50%;
+    /* background-color: #000; */
+    display: flex;
+    align-items: center;
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    
+
+}
+.nav-list li a{
+    text-decoration: none;
+    font-weight: bold ;
+    font-family: Arial;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+.nav-list li a:hover{
+    color: #ff7200;
+}
+.leftNav{
+    width: 50%;
+    text-align: right;
+    font-family: arial;
+    padding: 0 23px;
+}
+#Search{
+    padding: 5px;
+    border-radius: 9px;
+    border: 2px solid orangered;
+    font-family: 'Times New Roman';
+    border-right: none;
+    font-size: 17px;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius: 5px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url(4.jpg);
+    background-size: cover;
+    background-blend-mode:darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 70%;
+    margin: auto;
+    height: 80%;
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.secondHalf img{
+    width: 35%;
+    border:5px solid #fff;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    padding: 3px;
+}
+.txet-big{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: orangered;
+}
+.text-small{
+    font-size: 18px;
+    
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid orangered;
+    border-radius: 8px;
+    font-size: 18px;
+    color: orangered;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    
+}
