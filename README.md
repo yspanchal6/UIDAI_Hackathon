@@ -84,23 +84,64 @@ These files are **directly usable** for dashboards, charts, and reports.
 
 UIDAI_Hackathon/
 │
-├── data/                 # Raw UIDAI datasets (READ ONLY)
-│   ├── Enrolment_All.csv
-│   ├── Demographic_All.csv
-│   └── Biometric_All.csv
-│
 ├── analysis/             # Python analysis (YOU handle)
 │   └── uidai_lifecycle_analysis.py
 │
-├── output/               # Cleaned & aggregated CSVs
-│   ├── Lifecycle_Service_Demand.csv
-│   ├── State_Wise_Update_Demand.csv
-│   └── Yearly_Update_Trend.csv
 │
 ├── assets/               # Final charts (PNG/JPG)
+|   ├── Demand/
+|   |   ├── by-age-Group.png
+|   |   ├── Top-10-Cities by Aadhaar Update.png
+|   |   └── top10-State_Wise_Update_Demand.png
+|   |
+│   ├── Enrol vs Update by age group.png
 │   ├── lifecycle_chart.png
-│   ├── state_demand.png
+|   ├── Share_of_Aadhaar_Update-Top-10 States.png
 │   └── yearly_trend.png
+│
+│
+│
+├── dataset/                 # Raw UIDAI datasets (READ ONLY)
+|   |
+│   ├── analysis_outputs/       # Cleaned & aggregated CSVs
+|   |   |
+|   |   ├── Biometric_Update_Trend.csv
+|   |   ├── Lifecycle_Service_Demand.csv
+|   |   ├── State_City_Wise_Update_Demand.csv
+|   |   └── State_Wise_Update_Demand.csv
+|   |
+|   |
+│   ├── marge_data
+|   |   |
+|   |   ├── Biometric_All.csv
+|   |   ├── Biometric_Update.py
+|   |   ├── Demographic_All.csv
+|   |   ├── Demographic.py
+|   |   ├── Enrolment_All.csv
+|   |   └── Enrolment.py
+|   |   
+|   |
+│   └── row_data
+|       ├── State_City_Wise_Update_Demand.csv
+|       |   ├── api_data_aadhar_biometric_0_500000.csv
+|       |   ├── api_data_aadhar_biometric_500000_1000000.csv
+|       |   ├── api_data_aadhar_biometric_1500000_1861108.csv
+|       |   └── api_data_aadhar_biometric_1500000_1861108.csv
+|       |   
+|       |
+|       ├── Demographic_Update
+|       |   ├── api_data_aadhar_demographic_500000_1000000.csv
+|       |   ├── api_data_aadhar_demographic_500000_1000000.csv
+|       |   ├── api_data_aadhar_demographic_1000000_1500000.csv
+|       |   ├── api_data_aadhar_demographic_1500000_2000000.csv
+|       |   └── api_data_aadhar_demographic_2000000_2071700.csv
+|       |
+|       └── Enrolment
+|           ├── api_data_aadhar_enrolment_0_500000.csv
+|           ├── api_data_aadhar_enrolment_1000000_1006029.csv
+|           └── api_data_aadhar_enrolment_1000000_1006029.csv
+|           
+│
 │
 ├── final_pdf/            # Final submission
 │   └── UIDAI_Hackathon_Final_Report.pdf
