@@ -75,7 +75,7 @@ These files are **directly usable** for dashboards, charts, and reports.
 
 ## 🛠 Tools
 - **Python (Pandas)** – Data cleaning & aggregation
-- **Excel / BI tools** – Visualization
+- **python (matplotlib & numpy)** – Visualization
 - **GitHub** – Version control
 
 ---
