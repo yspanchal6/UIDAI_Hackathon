@@ -5,4 +5,5 @@ __pycache__/
 .vscode/
 *.pyc
 .DS_Store
-logs/
+*.md
+*.txt
