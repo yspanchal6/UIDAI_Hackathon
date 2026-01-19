@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt
 
 
 # Path to enrolment CSV files
-path = "row_data/Enrolment/*.csv"
+path = "dataset/row_data/Enrolment/*.csv"
 
-if os.path.exists("Enrolment_All.csv"):
+if os.path.exists("dataset/marge_data/Enrolment_All.csv"):
     print("File already existed.")
 else:
     # Read all CSV files
