@@ -85,7 +85,7 @@ These files are **directly usable** for dashboards, charts, and reports.
 ```
 UIDAI_Hackathon/
 │
-<<<<<<< HEAD
+|
 ├── analysis/             # Python analysis (YOU handle)
 │   └── uidai_lifecycle_analysis.py
 │
@@ -137,8 +137,8 @@ UIDAI_Hackathon/
 |       |   ├── api_data_aadhar_demographic_1000000_1500000.csv
 |       |   ├── api_data_aadhar_demographic_1500000_2000000.csv
 |       |   └── api_data_aadhar_demographic_2000000_2071700.csv
-|       |/
-|       └── Enrolment
+|       |
+|       └── Enrolment/
 |           ├── api_data_aadhar_enrolment_0_500000.csv
 |           ├── api_data_aadhar_enrolment_1000000_1006029.csv
 |           └── api_data_aadhar_enrolment_1000000_1006029.csv
