@@ -82,32 +82,52 @@ These files are **directly usable** for dashboards, charts, and reports.
 
 ## 📁 Project Structure
 
+```
 UIDAI_Hackathon/
 │
-├── data/                 # Raw UIDAI datasets (READ ONLY)
-│   ├── Enrolment_All.csv
-│   ├── Demographic_All.csv
-│   └── Biometric_All.csv
+├── analysis/
+├── data/                         # Input datasets (read-only)
+│   ├── raw/
+│   │   ├── Enrolment_All.csv
+│   │   ├── Demographic_All.csv
+│   │   └── Biometric_All.csv
+│   │
+│   └── processed/                # Cleaned/intermediate datasets
+│       ├── lifecycle_clean.csv
+│       └── state_year_clean.csv
 │
-├── analysis/             # Python analysis (YOU handle)
-│   └── uidai_lifecycle_analysis.py
+├── src/                          # Source code
+│   ├── analysis/
+│   │   └── uidai_lifecycle_analysis.py
+│   │
+│   └── utils/                    # Helper functions (optional)
+│       └── data_utils.py
 │
-├── output/               # Cleaned & aggregated CSVs
-│   ├── Lifecycle_Service_Demand.csv
-│   ├── State_Wise_Update_Demand.csv
-│   └── Yearly_Update_Trend.csv
+├── visuals/                      # All generated visual outputs
+│   ├── charts/
+│   │   ├── lifecycle_chart.png
+│   │   ├── state_demand.png
+│   │   └── yearly_trend.png
+│   │
+│   └── dashboards/               # (Optional) Interactive visuals
+│       └── dashboard.pbix
 │
-├── assets/               # Final charts (PNG/JPG)
-│   ├── lifecycle_chart.png
-│   ├── state_demand.png
-│   └── yearly_trend.png
+├── outputs/                      # Final analysis results
+│   ├── tables/
+│   │   ├── Lifecycle_Service_Demand.csv
+│   │   ├── State_Wise_Update_Demand.csv
+│   │   └── Yearly_Update_Trend.csv
+│   │
+│   └── summaries/
+│       └── key_insights.md
 │
-├── final_pdf/            # Final submission
+├── reports/                      # Final submissions & documents
 │   └── UIDAI_Hackathon_Final_Report.pdf
 │
-└── README.md             # Short explanation of project
-
-
+├── requirements.txt              # Python dependencies
+├── .gitignore
+└── README.md
+```
 ---
 
 ## 👤 Role
